@@ -1,204 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt_BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portal de notícias</title>
-    <link rel="stylesheet" href="./main.css" />
+    <title>Verifica Numero</title>
+    <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Meu portal de notícias</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
-                    </li>
-                    <li>
-                        <a href="#economy" title="Ir para a seção de economia">Economia</a>
-                    </li>
-                    <li>
-                        <a href="#entertainment" title="Ir para a seção de entretenimento">Entretenimento</a>
-                    </li>
-                    <li>
-                        <a href="#tech" title="Ir para a seção de tecnologia">Tecnologia</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="sports">
-        <div class="container">
-        <h2>Esportes</h2>
-        <div class="articles">
-            <article>
-                <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
-                <header>
-                    <time>13/07/2022 às 12:35</time>
-                </header>
-                <h3>Grande clássico na noite de hoje</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                </p>
-                <a href="#" title="Leia a notícia completa">Ler mais</a>
-            </article>
-            <article>
-                <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
-                <header>
-                    <time>13/07/2022 às 12:35</time>
-                </header>
-                <h3>Noite do Superbowl</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                </p>
-                <a href="#" title="Leia a notícia completa">Ler mais</a>
-            </article>
-            <article>
-                <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-                <header>
-                    <time>13/07/2022 às 12:35</time>
-                </header>
-                <h3>Notícia sobre a NBA</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                </p>
-                <a href="#" title="Leia a notícia completa">Ler mais</a>
-            </article>
-            <article>
-                <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-                <header>
-                    <time>13/07/2022 às 12:35</time>
-                </header>
-                <h3>Notícia sobre a NBA</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                </p>
-                <a href="#" title="Leia a notícia completa">Ler mais</a>
-            </article>
-        </div>
-        </div>
-    </section>
-    <section id="economy">
-        <div class="container">
-        <h2>Economia</h2>
-        <div class="articles">
-            <article>
-                <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
-                <header>
-                    <time>13/07/2022 às 12:35</time>
-                </header>
-                <h3>Dólar em alta de 0.50%</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                </p>
-                <a href="#" title="Leia a notícia completa">Ler mais</a>
-            </article>
-            <article>
-                <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
-                <header>
-                    <time>13/07/2022 às 12:35</time>
-                </header>
-                <h3>Euro em queda de 0.40%</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                </p>
-                <a href="#" title="Leia a notícia completa">Ler mais</a>
-            </article>
-            <article>
-                <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
-                <header>
-                    <time>13/07/2022 às 12:35</time>
-                </header>
-                <h3>Alta no preço do barril do petróleo</h3>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
-                </p>
-                <a href="#" title="Leia a notícia completa">Ler mais</a>
-            </article>
-        </div>
+    <div class="container">
+        <form id="form-compara">
+        <h1>Comparador de números</h1>
+        <h3>Nós iremos comparar se o número inserido no campo B é maior que o número do campo A.</h3>
+        <ul>
+            <label>Escolha um número (B)</label>
+            <li><input id="num-x" type="number" placeholder="Insira um número inteiro" required></li>
+            <label>Escolha outro número (A)</label>
+            <li><input id="num-y" type="number" placeholder="Insira um número inteiro" required></li>
+            <p class="msg-maior"></p>
+            <p class="msg-menor"></p>
+            <li><button type="submit">Comparar</button> <button type="reset">Limpa</button></li>
+        </ul>
+        </form>
     </div>
-    </section>
-    <section id="entertainment">
-        <div class="container">
-            <h2>Entretenimento</h2>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/entertainment_01_cinema.jpg" alt="cinema em familia"/>
-                    <header>
-                        <time>19/07/2023 às 20:19</time>
-                    </header>
-                    <h3>O cinema mudou em 2023? Entenda:</h3>
-                    <p>
-                        Lorenzada ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quo consequatur aperiam itaque ullam asperiores quidem mollitia! Ab, reiciendis ullam qui ipsum perspiciatis, odit earum ipsa non consequatur inventore itaque!
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/entertainment_02_blackmirror.jpg" alt="black mirror romance"/>
-                    <header>
-                        <time>19/07/2023 às 20:19</time>
-                    </header>
-                    <h3>Sorte no amor e no jogo?</h3>
-                    <p>
-                        Lorenzada ipsum o bagulho foi diferenciado nesse epi consectetur adipisicing elit. Laboriosam quo consequatur aperiam itaque ullam asperiores quidem mollitia! Ab, reiciendis ullam qui ipsum perspiciatis, odit earum ipsa non consequatur inventore itaque!
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/entertainment_03_podcast_comuna.jpg" alt="comunifta taok"/>
-                    <header>
-                        <time>19/07/2023 às 20:19</time>
-                    </header>
-                    <h3>Comunista Ian Neves participa do podcast "À Deriva" e surpreende</h3>
-                    <p>
-                        Camarada ipsum dolor sit extinção da classe burguesa adipisicing elit. Laboriosam quo consequatur aperiam itaque ullam asperiores quidem mollitia! Ab, reiciendis ullam qui ipsum perspiciatis, odit earum ipsa non consequatur inventore itaque!
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
-    <section id="tech">
-        <div class="container">
-            <h2>Tecnologia</h2>
-            <div class="articles">
-                <article>
-                    <img src="./imagens/tech_01_deyvin.jpg" alt="deyvin"/>
-                    <header>
-                        <time>19/07/2023 às 20:19</time>
-                    </header>
-                    <h3>Programadores no YouTube? Fique por dentro:</h3>
-                    <p>
-                        Lorem ipsum os reacts de rotina dev são muito bons dolor sit amet consectetur adipisicing elit. Laboriosam quo consequatur aperiam itaque ullam asperiores quidem mollitia! Ab, reiciendis ullam qui ipsum perspiciatis, odit earum ipsa non consequatur inventore itaque!
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/tech_02_macbook2019.jpg" alt="macbook"/>
-                    <header>
-                        <time>19/07/2023 às 20:19</time>
-                    </header>
-                    <h3>Macbook Pro 2019 em 2023: Ainda vale a pena?</h3>
-                    <p>
-                        Lorenzada ipsum nem sei mano, mas as vezes pode até compensar consectetur adipisicing elit. Laboriosam quo consequatur aperiam itaque ullam asperiores quidem mollitia! Ab, reiciendis ullam qui ipsum perspiciatis, odit earum ipsa non consequatur inventore itaque!
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                    <img src="./imagens/tech_03_seattle.jpg" alt="seattle"/>
-                    <header>
-                        <time>19/07/2023 às 20:19</time>
-                    </header>
-                    <h3>Mercado de tecnologia aquecido em Seattle</h3>
-                    <p>
-                        Camarada ipsum dolor sit adipisicing elit. Laboriosam quo consequatur aperiam itaque ullam asperiores quidem mollitia! Ab, reiciendis ullam qui ipsum perspiciatis, odit earum ipsa achou que eu não ia editar esse né?
-                    </p>
-                    <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-            </div>
-        </div>
-    </section>
+<script src="./main.js"></script>
 </body>
 </html>
