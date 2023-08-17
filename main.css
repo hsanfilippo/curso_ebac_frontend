@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(./images/bg-orange.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-container {
+    padding: 24px;
+}
+
+header {
+    background-color: rgb(255, 137, 2);
+    text-align: center;
+}
+
+.menu-hamb {
+    width: 32px;
+    cursor: pointer;
+    padding: 2px;
+    margin: 0 auto;
+}
+
+.menu-hamb span {
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-top: 8px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+header h2 {
+    color: #fff;
+}
+
+#menu-expand {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#menu-expand ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 8px;
+    padding: 6px;
+}
+
+#menu-expand ul li a {
+    text-decoration: none;
+    color: rgb(255, 156, 42);
+    font-weight: bold;
+}
+
+#menu-expand ul li a:hover {
+    color: black;
+}
+
+.banner {
+    margin: 0 auto;
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#form-info,
+#form-endereco {
+    margin-bottom: 24px;
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 0;
+}
+
+h3 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 22px;
+
+}
+
+#form-info input {
+    margin-bottom: 10px;
+    height: 24px;
+    padding: 2px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #fff;
+    flex-wrap: wrap;
+    margin-right: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+#form-info label {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+
+/*Info. Pessoais*/
+
+#inputNome {
+    max-width: 150px;
+    width: 100%;
+}
+
+#inputSobrenome {
+    max-width: 200px;
+    width: 100%;
+}
+
+#inputEmail {
+    max-width: 200px;
+    width: 100%;
+}
+
+#inputTelefone {
+    max-width: 130px;
+    width: 100%;
+}
+
+/*Endereço*/
+
+#info1,
+#info2,
+#endereco1,
+#endereco2 {
+    display: block;
+    flex-wrap:wrap;
+}
+
+
+#inputCep {
+    max-width: 70px;
+    width: 100%;
+}
+
+#inputEstado {
+    max-width: 30px;
+    width: 100%;
+}
+
+#inputCidade {
+    max-width: 200px;
+    width: 100%;
+}
+
+#inputRua {
+    max-width: 300px;
+    width: 100%;
+}
+
+#inputNumCasa {
+    max-width: 35px;
+    width: 100%;
+}
+
+#inputNumApto {
+    max-width: 35px;
+    width: 100%;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgb(255, 156, 42);
+    border-style: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(255, 209, 4);
+}

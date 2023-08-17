@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - UNIC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css"/>
+</head>
+<body>
+    <header>
+    <div class="container header-container">
+            <h1>UNIC</h1>
+            <h2>Universidade de Curitiba</h2>
+        <div class="menu-hamb">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>   
+    </div>
+    </header>
+
+    <div id="menu-expand">
+        <div class="container cont-menu">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./images/rap_dos_memes_-_caue_moura_mp3.jpg" title="Não clica, senão vai aparecer a foto de um cachorro.">Sobre a UNIC</a>
+                    </li>
+                    <li>
+                        <a href="./images/rap_dos_memes_-_caue_moura_mp3.jpg" title="Não clica, senão vai aparecer a foto de um cachorro.">Seja UNIC</a>
+                    </li>
+                    <li>
+                        <a href="./images/rap_dos_memes_-_caue_moura_mp3.jpg" title="Não clica, senão vai aparecer a foto de um cachorro.">Cursos</a>
+                    </li>
+                    <li>
+                        <a href="./images/rap_dos_memes_-_caue_moura_mp3.jpg" title="Não clica, senão vai aparecer a foto de um cachorro.">Portal</a>
+                    </li>
+                    <li>
+                        <a href="./images/rap_dos_memes_-_caue_moura_mp3.jpg" title="Não clica, senão vai aparecer a foto de um cachorro.">Contato</a>
+                    </li>
+                    <li>
+                        <a href="./images/rap_dos_memes_-_caue_moura_mp3.jpg" title="Não clica, senão vai aparecer a foto de um cachorro.">Área do Aluno</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="./images/banner-horizontal.jpg" alt="">
+    </div>
+
+    <div class="container">
+        <h2 id="h2-matricula">Matrícula para o vestibular 2023</h2>
+    </div>
+
+    <div class="container formulario">
+        <h3>Informações Pessoais</h3>
+        <form id="form-info">
+            <div id="info1">    
+                <label for="inputNome">Nome</label>
+                <input type="text" name="nome" id="inputNome"/>
+
+                <label for="inputSobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="inputSobrenome"/>
+            </div>
+            <div id="info2">
+                <label for="inputEmail">E-mail</label>
+                <input type="email" name="email" id="inputEmail"/>
+
+                <label for="inputTelefone">Telefone</label>
+                <input type="tel" name="telefone" id="inputTelefone"/>
+            </div>
+                <label for="inputCpf">CPF</label>
+                <input type="text" name="cpf" id="inputCpf"/>
+
+        <h3>Endereço</h3>
+            <div id="endereco1">
+                <label for="inputCep">CEP</label>
+                <input type="text" name="cep" id="inputCep"/>
+
+                <label for="inputEstado">Estado</label>
+                <input type="list" name="estado" id="inputEstado"/>
+
+                <label for="inputCidade">Cidade</label>
+                <input type="text" name="cidade" id="inputCidade"/>
+            </div>
+
+            <label for="inputRua">Rua</label>
+            <input type="text" name="rua" id="inputRua"/>
+
+            <div id="endereco2">
+                <label for="inputNumCasa">№</label>
+                <input type="text" name="numRua" id="inputNumCasa"/>
+    
+                <label for="inputNumApto">Apto.</label>
+                <input type="text" name="numApto" id="inputNumApto"/>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </div>
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
