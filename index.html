@@ -1,0 +1,81 @@
+<!--
+    Henrique Sanfilippo
+
+    Exercício desenvolvido para o curso "Front End" da EBAC.
+
+    ---
+
+    Fix futuros:
+        >Corrigir o alinhamento dos alerts, em relação ao formulário. Está descentralizado.
+        >Adicionar uma validação melhor para os campos do formulário.
+        >Corrigir problemas de responsividade para resoluções menores:
+            -header;
+            -form;
+-->
+
+
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-header-1">
+                    <h1>Cadastro Games</h1>
+                </div>
+                <div class="col-md-4 col-sm-12 col-header-2">
+                    
+                </div>
+                <div class="col-md-4 col-sm-12 col-header-3" id="login-header">
+                    <div class="container">
+                        <a href="#" class="btn btn-primary">Login</a>
+                        <a href="#" class="btn btn-dark">Criar conta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-10 col-form-1">
+                    <h3 class="display-3">Cadastre-se para começar sua aventura agora mesmo!</h3>
+                    <form>
+                        <div class="container">
+                            <label class="form-label" for="nome">Nome:</label>
+                            <input class="form-control input-cadastro" type="text" id="nome" >
+
+                            <label class="form-label" for="sobrenome">Sobrenome:</label>
+                            <input class="form-control input-cadastro" type="text" id="sobrenome" >
+
+                            <label class="form-label" for="email">E-mail:</label>
+                            <input class="form-control input-cadastro" type="email" id="email" >
+
+                            <label class="form-label" for="tel">Telefone:</label>
+                            <input class="form-control input-cadastro" type="tel" id="tel" >
+
+                            <button class="btn btn-primary concluir">Concluir cadastro</button>
+
+                            <div class="alerta"></div>
+
+                            <p><a href="#" class="btn problemas">Estou com problemas para me cadastrar</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
