@@ -1,0 +1,15 @@
+{
+  "name": "mod_15_introducao_sass",
+  "version": "1.0.0",
+  "description": "Módulo 15 - Front End",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass source/main.scss build/styles.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hsanfilippo",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.66.1"
+  }
+}

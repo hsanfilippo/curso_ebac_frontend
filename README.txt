@@ -1,5 +1,5 @@
-Repositório do curso "Profissão: Desenvolvedor Full Stack Python".
+Módulo 15 - Front End
 
-Este repositório é destinado à adicionar os arquivos das atividades realizadas durante o curso.
-
-As atividades estão separadas pro branches neste mesmo repositório.
+###Requisitos:
+    > Converter o CSS do projeto disponibilizado na plataforma para o SASS; -  OK
+    > Utilize os recursos do SASS que aprendemos durante as aulas, como as variáveis e os módulos; - OK
