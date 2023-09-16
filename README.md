@@ -1,4 +1,4 @@
-Repositório do curso "Profissão: Desenvolvedor Full Stack Python".
+## Repositório do curso "Profissão: Desenvolvedor Full Stack Python".
 
 Este repositório é destinado à adicionar os arquivos das atividades realizadas durante o curso.
 
