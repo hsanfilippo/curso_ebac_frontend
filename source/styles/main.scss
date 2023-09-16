@@ -1,0 +1,42 @@
+@use 'var';
+
+body {
+    background-color: var.$corPrincipal;
+}
+
+.container {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: antiquewhite;
+    color: var.$corSecundaria;
+
+    a {
+        text-decoration: none;
+        color: var.$txtBlk;
+        font-size: 30px;
+        font-weight: bold;
+
+        &:hover {
+            text-decoration: underline;
+            font-weight: 400;
+        }
+    }
+}
+
+button {
+    background-color: var.$corSecundaria;
+    color: var.$txtWht;
+    text-decoration: none;
+
+    &:hover {
+        background-color: aquamarine;
+        color: var.$txtBlk;
+    }
+}
+
+h3 {
+    color: var.$txtWht;
+}
