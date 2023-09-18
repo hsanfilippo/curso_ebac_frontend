@@ -1,0 +1,100 @@
+@import './maps.less';
+@import './escapings';
+@import './var.less';
+
+#reset(); // <--- Map
+
+body {
+    background-color: #cores[corBg]; // <--- Map
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #cores[corHeader]; // <--- Map
+    position: sticky;
+    top: 0; 
+    left: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: @ptb-2; // <--- Variavel
+    }
+}
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin: @ml-3; // <--- margin-left: 24px;
+    }
+
+    a {
+        color: #cores[textoAlt]; // <--- Map
+        text-decoration: none;
+    }
+}
+
+section {
+    padding: @ptb-7; // <--- Variavel
+}
+
+.products {
+    margin: @mt-5; // <--- Variavel
+    display: grid;
+    width: 100%;
+    #col-3(); // <--- Map
+}
+
+.product-item{
+    img {
+        width: 100%;
+        border-radius: 16px;
+    }
+}
+
+.product-button {
+    display: block;
+    background-color: #cores[corBtnMain]; // <--- Map
+    color: #fff;
+    text-align: center;
+    padding: @ptb-1; // <--- Variavel
+    border-radius: 8px;
+    margin: @mt-1; // <--- Variavel
+    text-decoration: none;
+
+    &:hover {
+        background-color: #cores[corBtnHover]; // <--- Map
+    }
+}
+
+@media @tabletBrk { // <--- Mixin
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        #col-2(); //<--- Map
+    }
+}
+
+@media @mobileBrk { // <--- Mixin
+    .products {
+        display: block;
+    }
+
+    .product-item  {
+        margin: @mb-4; // <--- Variavel
+    }
+}
