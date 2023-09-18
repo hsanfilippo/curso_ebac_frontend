@@ -1,5 +1,7 @@
 # Mód. 17 - Introdução ao LESS
 
+Não esqueça do ' npm run less ' ;)
+
 ## Requisitos:
   Converter o estilo do projeto disponibilizado na plataforma para o LESS;- OK
   Utilize os recursos do LESS que aprendemos durante o módulo, como as variáveis, divisão dos arquivos, escapings e os mapas; - OK
