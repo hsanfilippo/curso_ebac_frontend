@@ -12,7 +12,8 @@
     grid-template-columns: 33% 33% 33%;
     grid-column-gap: 1%;
 
-    .produto {
+    &__produto {
+
         &__imagem {
             width: 100%;
         }
@@ -22,15 +23,15 @@
             margin: 8px 0;
         }
     
-        &__descricao {
+        &__descricao { 
             color: gray;
         }
     
-        &--em_destaque {
+        &--em_destaque { 
             border: 2px solid gold;
             padding: 8px;
             background-color: #ffff42;
         }
-    }
+    } 
 }
 
