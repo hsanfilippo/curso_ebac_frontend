@@ -1,5 +1,4 @@
-## Repositório do curso "Profissão: Desenvolvedor Full Stack Python".
+# Mód. 23 - AJAX e Exceções
 
-Este repositório é destinado à adicionar os arquivos das atividades realizadas durante o curso.
-
-As atividades estão separadas pro branches neste mesmo repositório.
+## Requisitos:
+  Adaptar o projeto disponibilizado na plataforma para que os dados sejam preenchidos via requisição Ajax; - OK
