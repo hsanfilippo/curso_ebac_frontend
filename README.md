@@ -1,5 +1,5 @@
-## Repositório do curso "Profissão: Desenvolvedor Full Stack Python".
+# Mód. 26 - Conheça o TypeScript
 
-Este repositório é destinado à adicionar os arquivos das atividades realizadas durante o curso.
+## Requisitos:
+   Utilizando o TypeScript e a tipagem escreva duas funções: uma função de multiplicação que deverá receber como argumentos dois números e retornar a multiplicação deles, e uma função de saudação que deverá receber um nome e retornar a concatenação “Olá “ + nome;
 
-As atividades estão separadas pro branches neste mesmo repositório.
