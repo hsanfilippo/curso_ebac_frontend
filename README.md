@@ -10,7 +10,7 @@
 Por favor, instale as dependências do projeto com `npm install`
 
 ## Scripts:
-`npm run cypress`: Exibe os comandos disponíveis para rodar os testes.
-`npm run cypress open`: Roda os testes em uma interface gráfica amigável.
-`npm run cypress run`: Roda os testes diretamente no terminal.
-`npm run mochawesome`: Roda os testes com relatórios gerados via `mochawesome`.
+- `npm run cypress`: Exibe os comandos disponíveis para rodar os testes.
+- `npm run cypress open`: Roda os testes em uma interface gráfica amigável.
+- `npm run cypress run`: Roda os testes diretamente no terminal.
+- `npm run mochawesome`: Roda os testes com relatórios gerados via `mochawesome`.
